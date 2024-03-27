@@ -6,7 +6,7 @@ const searchBtn=document.querySelector('.searchbtn');
 //function to fetch movie details using api
 const getMovieInfo=async (movie)=>{
     try {
-        const mapi_key="61cc298";
+        const mapi_key="*********";
         const url=`http://www.omdbapi.com/?apikey=${mapi_key}&t=${movie}`;
     
         const response=await fetch(url);
